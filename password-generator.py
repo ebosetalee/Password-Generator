@@ -3,10 +3,10 @@ import random
 alpha = "abcdefghijklmnopqrstuvwxyz"
 capAlpha = str.swapcase(alpha)
 numerals = "0123456789"
-print(numerals)
+# print(numerals)
 symbols = """!@#%'^&*()-_{+}[],.:;"="""
 characters = alpha + capAlpha + numerals + symbols
-print(characters)
+# print(characters)
 
 Num_of_password = int(input("What length of Password do you need? "))
 # symbs = input("Do you want Symbols such as @, &, *, [ etc: ")
